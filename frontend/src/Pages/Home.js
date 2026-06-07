@@ -22,7 +22,7 @@ const navigate=useNavigate();
 
   const fetchProducts =async ()=>{
     try {
-      const url ="http://localhost:8080/products";
+      const url ="https://node-authentication-login-and-signu.vercel.app/products";
       const headers = {
         headers:{
           'Authorization': localStorage.getItem('token')
