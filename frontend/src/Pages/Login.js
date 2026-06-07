@@ -26,7 +26,7 @@ const handleLogin = async (e) =>{
     }
     try{
 
-        const url = "http://localhost:8080/auth/login";
+        const url = "https://node-authentication-login-and-signu.vercel.app/auth/login";
         const response = await fetch(url,{
             method:"POST",
             headers : {
